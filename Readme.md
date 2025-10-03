@@ -14,7 +14,7 @@ elk-lab
 
 | Thành phần             | Tài khoản             | Mật khẩu          |
 |------------------------|-----------------------|-------------------|
-| Máy ảo Ubuntu          | ubuntu_elk            | 123               |
+| Máy ảo Ubuntu          | dongnd                | 123               |
 | Elastic Superuser      | elastic               | elastic!@#123     |
 | Kibana System          | kibana_system         | password!@#123    |
 | APM System             | apm_system            | password!@#123    |
@@ -32,5 +32,6 @@ sudo docker-compose up -d
 ```
 ---
 ## Truy cập Kibana 
+
 
 ```http://<IP_host>:5601```
